@@ -3,7 +3,6 @@
 
 #code for linear regression without Cost function
 
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -23,7 +22,7 @@ def compute_model_output(x, w, b):
         f_wb[i] = w * x[i] + b
 
     return f_wb
-
+    
 w = 200
 b = 100
 x_i = 1.2
